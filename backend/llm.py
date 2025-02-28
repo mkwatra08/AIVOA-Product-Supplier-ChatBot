@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyCNQqPlGyLc_KDVFx07tdA_1vHUiap2pQw"  # Replace with your actual API key
+GEMINI_API_KEY = "GEMINI_API_KEY"  # Replace with your actual API key
 genai.configure(api_key=GEMINI_API_KEY)
 
 def generate_gemini_response(prompt: str) -> str:
